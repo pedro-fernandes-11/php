@@ -1,0 +1,107 @@
+body{
+    background-color: #4E4E4E;
+}
+#contentTasks{
+    height: calc(100vh - 200px);
+    overflow: scroll;
+    overflow-x: hidden;
+}
+#msg{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    color: #E5E5E5;
+    text-align: center;
+}
+#msg a{
+    color: #E5E5E5;
+}
+#bottomMsg{
+    color: #E5E5E5;
+    text-align: center;
+}
+#main{
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1400px;
+    justify-content: center;
+}
+.taskTemplate{
+    background-color: #6B6B6B;
+    flex: 1 1 300px;
+    max-width: 300px;
+    margin: 25px;
+    border-radius: 25px;
+}
+#lineButtons{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.taskButton{
+    padding: 10px;
+    background-color: #66996E;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.delete{
+    background-color: #E75E5E;
+}
+.infoTask{
+    padding: 0 15px;
+}
+.infoTask h1{
+    color: white;
+    margin: 15px 0;
+}
+.desc{
+    background-color: #C4C4C4;
+    border-radius: 15px;
+    padding: 15px;
+    overflow-y: scroll;
+    overflow-wrap: break-word;
+    height: 90px;
+}
+.desc p{
+    color: #242424;
+    flex-wrap: wrap;
+}
+.important{
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+}
+.important p{
+    color: white !important;
+}
+.checkbox{
+    -webkit-appearance: none;
+    background-color: white;
+    padding: 7px;
+	border-radius: 3px;
+    outline: none;
+}
+.checkbox:checked{
+    -webkit-appearance: none;
+    background-color: #66996E;
+    padding: 7px;
+	border-radius: 3px;
+    outline: none;
+}
+.addTask{
+    text-align: center;
+}
+.addTask h1{
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    text-align: center;
+    font-size: 18pt;
+}
+.addTask img{
+    width: 50%;
+    margin-bottom: 15px;
+    filter: invert(100%);
+}
+footer{position: absolute !important;}

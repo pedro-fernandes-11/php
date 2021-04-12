@@ -1,0 +1,33 @@
+body{
+    background-color: #4e4e4e;
+}
+#theTeam{
+    background-color: #E5E5E5;
+    padding-top: 70px;
+}
+#theTeam h1{
+    color: #4e4e4e;
+    border-bottom: 1px solid #4e4e4e;
+    margin-left: 350px;
+    font-size: 20pt;
+    width: 90px;
+}
+.eachPerson{
+    background-color: #6B6B6B;
+    margin: 45px 350px;
+    border-radius: 25px;
+    padding: 10px;
+}
+.eachPerson p span{
+    vertical-align: middle;
+    color: #E5E5E5;
+}
+.eachPerson p img{
+    width: 100px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin: 0 50px;
+}
+#bottomText{
+    padding: 70px 350px;
+}

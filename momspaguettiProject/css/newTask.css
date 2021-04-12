@@ -1,0 +1,101 @@
+body{
+    background-color: #4E4E4E;
+}
+#contentNewTask{
+    display: flex;
+    justify-content: center;
+}
+#contentNewTask form{
+    margin: 10px;
+    background-color: #C4C4C4;
+    width: 40%;
+    padding: 80px;
+    border-radius: 25px;
+}
+#contentNewTask form input{
+    width: calc(100% - 20px);
+    height: 30px;
+    border: none;
+    margin: 15px 0;
+    outline: none;
+    padding: 10px;
+}
+#contentNewTask form div{
+    text-align: center;
+}
+#contentNewTask form input[type = 'submit']{
+    padding: 15px;
+    height: auto;
+    width: auto;
+    background-color: #66996E;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+#contentNewTask form select{
+    padding: 15px;
+    border: none;
+    color: #252525;
+    outline: none;
+    margin: 15px 0;
+    border-radius: 1px;
+}
+#contentNewTask form select option{
+    padding: 25px;
+    border: none;
+    color: #252525;
+    outline: none;
+    margin: 15px 0;
+}
+#contentNewTask form textarea{
+    padding: 10px;
+    height: auto;
+    width: calc(100% - 20px);
+    border: none;
+    outline: none;
+    margin: 15px 0;
+    resize:vertical; 
+    max-height:300px; 
+    min-height:100px;
+    color: #252525;
+}
+#contentNewTask form legend{
+    font-size: 20pt;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #252525;
+    color: #252525;
+    width: 150px;
+}
+#contentNewTask form label{
+    font-size: 18pt;
+    color: #252525;
+}
+#contentNewTask form .important{
+    display: flex;
+    justify-content: start;
+    padding: 25px 0;
+    vertical-align: middle;
+}
+#contentNewTask form .important input[type='checkbox']{
+    -webkit-appearance: none;
+    background-color: white;
+	border-radius: 3px;
+    outline: none;
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+}
+#contentNewTask form .important input[type='checkbox']:checked{
+    -webkit-appearance: none;
+    background-color: #66996E;
+	border-radius: 3px;
+    outline: none;
+}
+#contentNewTask form h1{
+    font-size: 16pt;
+    color: #252525;
+    margin: 15px 0;
+}
+footer{position: absolute;}
