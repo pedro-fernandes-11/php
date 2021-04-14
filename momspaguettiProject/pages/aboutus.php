@@ -83,7 +83,36 @@
                 </p>
             </div>
         </div>
+        <div class="sendEmailMsg">
+            <div>
+                <h1>Enviar um email</h1>
+            </div>
+        </div>
+        <div id="formEmail">
+            <form action="sendEmail.php" method="post">
+                <label>Email</label><br>
+                <input type="email" name="email"><br>
+                <label>Título da mensagem</label><br>
+                <input type="text" name="title"><br>
+                <label>Conteúdo</label><br>
+                <textarea name="content" cols="30" rows="10"></textarea><br>
+                <div>
+                    <h1 class="titleClass">Classificação</h1><br>
+                    <label>Dúvida</label>
+                    <input type="radio" name="duvida"><br>
+                    <label>Reclamação</label>
+                    <input type="radio" name="reclamacao"><br>
+                    <label>Sugestão</label>
+                    <input type="radio" name="sugestao">
+                </div>
+                <div class="btn">
+                    <input type="submit" value="Enviar" name="btn">
+                </div>
+            </form>
+        </div>
     </div>
+     
+
     <footer>
         
     </footer>
