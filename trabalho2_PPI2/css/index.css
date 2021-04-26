@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: rgb(219, 219, 219);
+}
+body{
+    background-color: rgb(29, 29, 29);
+}
+body div:first-child{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 150px;
+    background-color:rgba(54, 54, 54, 0.568);
+    border-radius: 45px;
+}
+body div h1{
+    border-bottom: 1px solid rgb(196, 196, 196);
+    display: inline-block;
+    padding: 5px 0;
+    margin-bottom: 25px;
+    font-size: 20pt;
+    font-weight: 200;
+}
+body div form{
+    font-size: 17pt;
+}
+body div form label{
+    font-weight: 200;
+}
+body div form input{
+    margin: 10px 0;
+    width: calc(100% - 20px);
+    font-size: 15pt;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(196, 196, 196);
+    color: rgb(29, 29, 29);
+}
+body div form select{
+    padding: 15px;
+    border: none;
+    background-color: rgb(196, 196, 196);
+    color: rgb(29, 29, 29);
+    outline: none;
+    margin: 15px 0;
+    border-radius: 15px;
+    font-size: 13pt;
+}
+body div form select option{
+    padding: 25px;
+    border: none;
+    color: rgb(29, 29, 29);
+    outline: none;
+    font-size: 13pt;
+    margin: 15px 0;
+}
+body div form div{
+    width: 100%;
+    text-align: center;
+}
+body div form input[type= 'submit']{
+    padding: 15px;
+    height: auto;
+    width: auto;
+    background-color: #66996E;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}

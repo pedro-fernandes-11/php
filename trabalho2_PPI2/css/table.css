@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: rgb(219, 219, 219);
+}
+body{
+    background-color: rgb(29, 29, 29);
+}
+body table{
+    border: none;
+    border-collapse:collapse;
+    font-size: 16pt;
+}
+body table tr:nth-child(odd){
+    background-color: rgb(102, 102, 102);
+}
+body table tr:nth-child(odd) td{
+    color: rgb(219, 219, 219);
+}
+body table tr{
+    background-color: rgb(185, 185, 185);
+}
+body table tr td{
+    height: 50px;
+    padding: 0 25px;
+    color:rgb(29, 29, 29);
+}
+body table th{
+    padding: 15px;
+    font-weight: 200;
+    text-align: left;
+}
+body table td img{
+    width: 150px;
+    margin: 5px 0;
+}
