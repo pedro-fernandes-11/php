@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.formDiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 380px;
+    padding: 50px;
+    background-color: rgb(36, 36, 36);
+}
+.err{
+    background-color: rgb(255, 32, 32);
+    text-align: center;
+    padding: 15px;
+    margin: 10px 0;
+    color: rgb(39, 39, 39);
+}
+body div h1{
+    color: white;
+    font-weight: 100;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+body div label{
+    font-size: 18pt;
+    color: rgb(255, 255, 255);
+    padding-left: 15px;
+}
+body div input{
+    height: 40px;
+    width: calc(100% - 20px);
+    border: none;
+    font-size: 15pt;
+    padding: 0 10px;
+    outline: none;
+    margin-bottom: 40px;
+    background-color: rgb(219, 219, 219);
+}
+.passInput{
+    margin-bottom: 0;
+}
+body div input[type="submit"]{
+    width: auto !important;
+    border-radius: 5px;
+    background-color: rgb(36, 36, 36);
+    border: 1px solid white;
+    color: white;
+}
+body div input[type="submit"]:hover{
+    background-color: rgb(69, 128, 69);
+    border: none;
+    transform: scale(1.12);
+    color: white;
+}
+.button{
+    margin-top: 50px;
+    text-align: center;
+    padding: 0;
+}

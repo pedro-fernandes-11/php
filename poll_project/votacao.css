@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(41, 41, 41);
+    height: auto;
+    padding: 25px;
+    line-height: 50px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+header a{
+    color: white;
+    font-size: 17pt;
+    text-decoration: none;
+    padding: 0 30px;
+    font-weight: 100;
+    background-color: rgb(77, 77, 77);
+    display: inline-block;
+    line-height: 50px;
+}
+header a:hover{
+    background-color: rgb(41, 41, 41);
+    border: 1px solid white;
+    transform: scale(0.9);
+}
+#outside{
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+#displayForm{
+    background-color: rgb(77, 77, 77);
+    display: flex;
+    text-align: center;
+}
+body div input[type="submit"]{
+    width: auto !important;
+    border-radius: 5px;
+    background-color: rgb(36, 36, 36);
+    border: 1px solid white;
+    color: white;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 15pt;
+}
+body div input[type="submit"]:hover{
+    background-color: rgb(69, 128, 69);
+    border: none;
+    transform: scale(1.12);
+    color: white;
+}
+.button{
+    margin-top: 50px;
+    text-align: center;
+    padding: 0;
+}
+form label{
+    font-size: 15pt;
+}
+#displayForm div{
+    margin: 25px;
+    width: 20%;
+}
+#displayForm div img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 25px;
+}
+#displayForm div img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#displayForm div h2{
+    font-size: 15pt;
+    color: white;
+}
+.text{
+    text-align: center;
+    padding-top: 50px;
+}
